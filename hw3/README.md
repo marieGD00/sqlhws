@@ -51,7 +51,7 @@ For all groupings of minplayers and maxplayers (e.g.  group by minplayers,maxpla
 ### 7
 For each category show the designer that has the longest possible game as max (maxplaytime) -- considering only the games that have designers associated with them (e.g. you can omit games that have no designer).
 
-Subsequently, only consider categories that have at least one designer associated with its respective games (e.g. if no designer exists for any game in a category, then omit the category.)
+Subsequently, only consider categories that have at least one designer associated with its respective games (e.g. 'if no designer exists for any game in a category, then omit the category' or alternatively 'if there does not exist any game in this category with a designer, then ignore the category').
 In case of a tie for the longest game and/or if a game has multiple designers, show all designers. Do not show the same designer multiple times per category. 
 
 The final output relation should given as (designer,category,max)  and sorted by category descending, designer ascending
